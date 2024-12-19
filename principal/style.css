@@ -1,122 +1,199 @@
+.inicio ul {
+  background: #2C4928;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  align-items: center;
+}
 
-.inicio ul{
-    background: green;
-    background-size: cover;
-    display: flex;
-    padding-left: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    justify-content: space-around;
-    list-style-type: none;
+.inicio button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: #16280D;
+  border: none;
+  color: white;
+  width: 124px;
+  height: 85px;
+  justify-content: center;
+  border-radius: 1cm;
+
+}
+
+.inicio h1 {
+  padding-top: 5px;
+  align-items: center;
+  padding-right: 50px;
+  color: white;
+  text-transform: uppercase;
+  justify-content: left;
+  background-image: url(/imagens/logo.svg);
+  background-repeat: no-repeat;
+  background-position: 160px;
+}
+
+.inicio a {
+  font-size: 15px;
+  padding-left: 50px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .texto-inicial {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: px;
-}
-.texto-inicial p {
-    display: flex; 
-    align-items: center; 
-    gap: 20px; 
+  background-image: url(/imagens/fundo.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .texto-inicial img {
-    
-    height: auto; 
+
+  padding-left: 150px;
+  width: 1000px;
+  height: 400px;
 }
 
-.texto-do-meio h1{
-
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    padding-right: 75px;
-    padding-bottom: 20px;
-    font-size:30px  
-}
-.texto-do-meio h2{
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 70px;
-    font-size: medium;
-}
-.texto-do-meio p{
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 50px;
-    max-width: 560px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px
-}
-.texto-do-meio button{
-    background-color: white;
-    border-color: rgb(102, 102, 202);
-    color: rgb(102, 102, 202);
-    border-radius: 5px;
-    width: 5cm;
-    height: 1cm;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+.texto-inicial h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #678363;
 }
 
-.cadastro button{
-    background-color: white;
-    border-color: rgb(102, 102, 202);
-    color: rgb(102, 102, 202);
-    border-radius: 5px;
-    width: 5cm;
-    height: 1cm;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5cm;
-  
+.texto-inicial p {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.cadastro input{
-    margin-left: 5cm;
-    margin-bottom: 20px;
-    width: 6cm;
-    
+.texto-do-meio h1 {
+  font-weight: nobold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  padding-right: 75px;
+  padding-bottom: 20px;
+  font-size: 30px;
 }
 
-.cadastro h1{
-    margin-left: 5cm;
-    font-size: 25px
-}
-.cadastro h2{
-    margin-left: 5cm;
-    font-size: 20px;   
+.texto-do-meio h2 {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+  font-size: medium;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 23px; 
-    background: rgb(33, 112, 33);
-    background-size: cover;
-    color: white;
+.texto-do-meio p {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  max-width: 560px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
+
+.texto-do-meio button {
+  background-color: white;
+  border-color: rgb(102, 102, 202);
+  color: rgb(102, 102, 202);
+  border-radius: 5px;
+  width: 5cm;
+  height: 1cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.texto-do-meio {
+  padding-top: 200px;
+  padding-bottom: 4cm;
+  background: rgb(241, 245, 241);
+}
+
+.cadastro button {
+  background-color: white;
+  border-color: rgb(102, 102, 202);
+  color: rgb(102, 102, 202);
+  border-radius: 5px;
+  width: 5cm;
+  height: 1cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4cm;
+}
+
+.cadastro input {
+  margin-left: 4cm;
+  margin-bottom: 20px;
+  width: 6cm;
+}
+
+.cadastro h1 {
+  margin-left: 4cm;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadastro h2 {
+  margin-left: 4cm;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .cadastro {
-    padding-top: 20px;
-    background-image: url(reciclagem.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-bottom: 50px;
-    background-size: cover;
+  padding-top: 20px;
+  background-image: url(/imagens/reciclagem.jpg);
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  background-size: cover;
+
 }
 
+.greybar {
+  background-image: url(/imagens/Retangulo\ \(2\).png);
+  background-position: bottom;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 21px;
+}
+
+.fale-conosco a {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-left: 8cm;
+  color: #847D7D;
+}
+
+.privacidade a {
+  color: #847D7D;
+}
+
+.final footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 21px;
+  background: #2C4928;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  width: 1447;
+  height: 74;
+  background-size: cover;
+}
